@@ -1,3 +1,4 @@
+import random
 """
 8. Use for-loops to print out every 3-letter word that:
 starts with one of these letters: c, t,, b
@@ -8,3 +9,15 @@ ends with one of these letters: p, t, n
 """
 
 # YOUR CODE HERE
+
+first = ["c","t","b"]
+second =["a","o"]
+third = ["p","t","n"]
+word = []
+for f in first:
+    for s in second:
+        for t in third:
+            word.append(f + s + t)
+
+for word in (word):
+    print(word)
